@@ -34,21 +34,20 @@ DB_ROOT_PASSWORD=root_password
 `docker-compose up -d`
 
 ### Configure Github on local machine
-'''
+```
 git config --global user.name "Fulano de Tal"
 git config --global user.email "fulanodetal@exemplo.br"
 git config -l
-'''
-
-###git clone ssh authorization error case
-'''
+```
+### Configure SSH on Github 
+ <a rel="Documentação" href="https://docs.github.com/pt/authentication/connecting-to-github-with-ssh/about-ssh">Documentação</a>
+ 
+### git clone ssh authorization error case
+```
 sudo chmod 777 DIR_NAME
 cd DIR_NAME
 git clone url_ssh
-'''
-
-### Configure SSH on Github 
- <a rel="Documentação" href="https://docs.github.com/pt/authentication/connecting-to-github-with-ssh/about-ssh">Documentação</a>
+```
 
 ### Start the servers in docker
 
